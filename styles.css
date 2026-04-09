@@ -1,0 +1,17 @@
+.border {
+    border: 2px black solid; 
+    margin-right: 50%;
+    padding: 1%;
+}
+
+
+#first{
+    margin-top: 50%;
+    background-color: aqua;
+    
+}
+
+#second{
+    margin-top: 50%;
+    background-color: brown;
+}

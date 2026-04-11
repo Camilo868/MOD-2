@@ -1,21 +1,38 @@
-div{
-    border-width: 5px;
+body{
+    border-width: px;
     border-color: black;
     border-style:solid ;
+    
+}
+
+.menu ul li a {
+    font-size: 18px;
+    padding: 10px 22px; 
+    display: inline-block; 
+    transition: 0.3s; 
+}
+
+.menu ul li a:hover {
+    font-size: 22px;
+    color: #3498db; 
+}
+#second ul {
+    padding-left: 20px; 
+    list-style-position: inside; 
 }
 
 .border {
+    text-align: center;
     border: 2px black solid; 
-    
+    background-color: bisque;
     padding: 1%;
+    margin-top: 0%;
 }
 
-#buggy{
-    background-color: aqua;
-}
+
 
 #first{
-    margin-top: 10%;
+    margin-top: 30%;
     background-color: aqua;
     
 }
@@ -29,3 +46,19 @@ div{
     margin-top: 10%;
     background-color: hwb(113 17% 15%);
 }
+body {
+    text-align: center;
+}
+
+#Buggy {
+    background-color: lightblue;
+}
+
+#Lucas {
+    background-color: lightsalmon;
+}
+
+#Haku {
+    background-color: lightgreen;
+}
+

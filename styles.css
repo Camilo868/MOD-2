@@ -1,26 +1,31 @@
-<<<<<<< HEAD
 div{
     border-width: 5px;
     border-color: black;
     border-style:solid ;
 }
 
-=======
 .border {
     border: 2px black solid; 
-    margin-right: 50%;
+    
     padding: 1%;
 }
 
+#buggy{
+    background-color: aqua;
+}
 
 #first{
-    margin-top: 50%;
+    margin-top: 10%;
     background-color: aqua;
     
 }
 
 #second{
-    margin-top: 50%;
+    margin-top: 10%;
     background-color: brown;
 }
->>>>>>> c9f48652405b078fd04bc29117a2d574c996ede6
+
+#third{
+    margin-top: 10%;
+    background-color: hwb(113 17% 15%);
+}

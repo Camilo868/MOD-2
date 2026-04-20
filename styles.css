@@ -5,7 +5,7 @@
 body{
     border-width: 1px;
     border-color: black;
-    border-style:solid ; 
+
     
     text-align: center;
 }
@@ -16,6 +16,7 @@ body{
     border: 2px black solid; 
     margin-top: 0%;  
     font-size: 17px;
+    
 }
 
 .menu ul a {
@@ -32,27 +33,36 @@ body{
     color: #3498db; 
 }
 
+.using_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    padding: 0.5rem;
+}
+
 #second ul {
     padding-left: 20px; 
-    list-style-position: inside; 
+    list-style-position: inside;     
 }
 
 #first{
     margin: 0rem;
     background-color: aqua;
+    border: 2px black solid;
 }
 
 #second{
     margin: 0rem;
     background-color: brown;
+    border: 2px black solid;
 }
 
 #third{
-    
+    border: 2px black solid;
     background-color: hwb(113 17% 15%);
 }
 
-
+ /*Targets in the document of pets*/
 #Buggy {
     background-color: lightblue;
 }

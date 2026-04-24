@@ -1,82 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
 
-    <header id="container">
-        <h1 class="border ">Camilo Ramirez osorio</h1>
-        <nav class="menu">
-            <ul>
-                <a href="#first">About me</a>
-                <a href="#second">Projects</a>
-                <a href="#third">Contact</a>
-                <a href="pets.html">Pets</a>
-            </ul>
-        </nav>
-    </header>
-    <section class="using_grid">    
-        <section id="first">
-            <h3>
-                About me
-            </h3>
-                <p> 
-                My name is Camilo Ramirez, i like to be learning constantly about coding and lenguages. 
-                I see myself as someone who never sits still. I'm a Systems Engineering student who's 
-                deeply immersed in code, not just to fulfill an obligation, but because I'm genuinely 
-                fascinated by understanding how things work.
-                </p>
-                <p>
-                I'm very methodical and use Git and GitHub like a pro because I know that disorganization
-                is the enemy of development. Also, I'm focused on my technical English because I know that's
-                where the real talent lies
-                </p>
-        </section>
-        <section id="second">
-            <h3>
-                Projects
-            </h3>
-                <p>
-                These are some of the proyects that i have worked:
-                </p>
+        <header class="container">
+            <h1 class="border ">Camilo Ramirez osorio</h1>
+            <nav class="menu">
                 <ul>
-                    <li><a href="#1">Manage of inventory</a> </li>
-                    <li><a href="#2">Manage of students</a> </li>
-                    <li><a href="#3">Web page creation</a> </li>
+                    <a href="#first">About me</a>
+                    <a href="#second">Projects</a>
+                    <a href="#third">Contact</a>
+                    <a href="pets.html">Pets</a>
                 </ul>
+            </nav>
+        </header>
+        <section class="using_grid">    
+            <section id="first">
+                <h3>
+                    About me
+                </h3>
+                    <p> 
+                    My name is Camilo Ramirez, i like to be learning constantly about coding and lenguages. 
+                    I see myself as someone who never sits still. I'm a Systems Engineering student who's 
+                    deeply immersed in code, not just to fulfill an obligation, but because I'm genuinely 
+                    fascinated by understanding how things work.
+                    </p>
+                    <p>
+                    I'm very methodical and use Git and GitHub like a pro because I know that disorganization
+                    is the enemy of development. Also, I'm focused on my technical English because I know that's
+                    where the real talent lies
+                    </p>
+            </section>
+            <section id="second">
+                <h3>
+                    Projects
+                </h3>
+                    <p>
+                    These are some of the projects that i have worked:
+                    </p>
+                    <ul>
+                        <li><a href="#1">Manage of inventory</a> </li>
+                        <li><a href="#2">Manage of students</a> </li>
+                        <li><a href="#3">Web page creation</a> </li>
+                    </ul>
 
+            </section>
+            <section id="third">                
+                <h3>Contact</h3>
+                <form>
+                    <fieldset>
+                        <label for="nombre">Name:</label>
+                        <input type="text" id="nombre" required>
+
+                        <label for="correo">Email address:</label>
+                        <input type="email" id="correo" required>
+
+                        <label for="number">Telephone number:</label>
+                        <input type="tel" id="number_phone" maxlength="10" required>
+                    </fieldset>
+
+                    <button type="submit">Send</button>
+                    <button type="reset">Clear</button>
+                </form>
+            </section>
         </section>
-
-        <section id="third">
-            <!-- Section title -->
-            <h2>Contact</h2>
-
-            <!-- Contact form -->
-            <form>
-            <fieldset>
-                <!-- Name input -->
-                <label for="nombre">Name:</label>
-                <input type="text" id="nombre" required>
-
-                <!-- Email input -->
-                <label for="correo">Email address:</label>
-                <input type="email" id="correo" required>
-
-                <!-- Phone input -->
-                <label for="number">Telephone number:</label>
-                <input type="tel" id="number_phone" maxlength="10" required>
-            </fieldset>
-
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpiar</button>
-            </form>
-        </section>
-    </section>
-    <link rel="stylesheet" href="script.js">
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>

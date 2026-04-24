@@ -1,3 +1,13 @@
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+html{
+   font-size:100%;
+}
+
 *{
     margin: 0;
     padding: 0; /* Añadimos esto para resetear navegadores */
@@ -13,8 +23,9 @@ body{
     text-align: center;
     background: linear-gradient(-45deg,#030308, #a09999, #030308,#a09999);    
     animation: backgroundMove 12s ease infinite;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: 400% 400%;
+   
     
 }
 
@@ -32,11 +43,11 @@ body{
     justify-content: center;
     border-bottom: 2px rgb(255, 255, 255) solid; 
     margin-top: 0%;  
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .menu {
-    font-size: 15px;
+    font-size: 0.9rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -56,7 +67,7 @@ body{
 }
 
 .menu ul a:hover {
-    font-size: 20px;
+    font: size 1.25rem;;
     color: #501e0f; 
 }
 
@@ -78,8 +89,6 @@ body{
 }
 
 #first{
-    margin: 0rem;
-    padding: 3%;
     background-color: #a4a4ad57;
     border: 2px black solid;
 }
@@ -105,21 +114,22 @@ body{
   align-items: center; 
   padding: 40px; 
   background-color: #f4f4f4; 
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #third h2 {
   margin-bottom: 20px; 
-  color: oklab(0% 0 0); 
+  color:black ; 
 }
 
 #third form {
-    width: 450px; 
-    background: #48ff00; 
-    padding: 25px; 
+    width: 100%;
+    max-width: 450px;
+    background: #b8ff9f; 
+    padding: 1.7rem; 
     border-radius: 5px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
-
 
 #third fieldset {
     border: none; 
@@ -161,7 +171,6 @@ body{
     color: rgb(0, 0, 0); 
 }
 
-
 #third button[type="reset"] {
     background-color: #ccc; 
 }
@@ -175,7 +184,7 @@ fieldset {
     display: flex;
     border: none;
     flex-direction: column;            
-    max-width: 500px;    
+    
     border-radius: 10px;
 }
 
@@ -186,6 +195,7 @@ fieldset {
 
 #Buggy {
     background-color: lightblue;
+    
 }
 
 #Lucas {

@@ -10,14 +10,14 @@
 
     <header id="container">
         <h1 class="border ">Camilo Ramirez osorio</h1>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#first">About me</a></li>
-                    <a href="#second">Projects</a>
-                    <a href="#third">Contact</a>
-                    <a href="pets.html">Pets</a>
-                </ul>
-            </nav>
+        <nav class="menu">
+            <ul>
+                <a href="#first">About me</a>
+                <a href="#second">Projects</a>
+                <a href="#third">Contact</a>
+                <a href="pets.html">Pets</a>
+            </ul>
+        </nav>
     </header>
     <section class="using_grid">    
         <section id="first">
@@ -56,23 +56,24 @@
             </h3>
                 <form>
                     <fieldset>
-                    <label for="nombre">Name:</label>
-                    <input type="text" id="nombre" required>
-    
-                    <label for="correo">Email address:</label>
-                    <input type="email" id="correo" required>
-            
-                    <label for="number">Telephone number:</label>
-                    <input type="tel" id="number" maxlength="10" required>
+                        <label for="nombre">Name:</label>
+                        <input type="text" id="nombre" placeholder="Enter your Name" required>
+        
+                        <label for="correo">Email address:</label>
+                        <input type="email" id="correo" placeholder="nam@gmail.com" required>
+                
+                        <label for="number">Telephone number:</label>
+                        <input type="tel" id="number" placeholder="000 000 0000" maxlength="10" required>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpiar</button>
                     </fieldset>  
                     
                     
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpiar</button>
                 </form>  
                     
         </section>
     </section>
+    <link rel="stylesheet" href="script.js">
 </body>
 
 </html>

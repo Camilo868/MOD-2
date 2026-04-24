@@ -1,12 +1,12 @@
 *{
     margin: 0;
+    list-style: none;
 }
 
 body{
     border-width: 1px;
     border-color: black;
     border-style:solid ; 
-    
     text-align: center;
 }
 
@@ -29,7 +29,7 @@ body{
 
 .menu ul li a:hover {
     font-size: 22px;
-    color: #3498db; 
+    color: #501e0f; 
 }
 
 #second ul {
@@ -53,6 +53,12 @@ body{
 }
 
 
+.galery_pets {
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+
+
 #Buggy {
     background-color: lightblue;
 }
@@ -65,3 +71,23 @@ body{
     background-color: lightgreen;
 }
 
+.galery_pets_2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+
+
+#tejon{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#camaron_pistola{
+    background-color: rgb(88, 48, 121);
+}
+
+#ballena_azul {
+    background-color: lightsteelblue;
+}
